@@ -1,0 +1,11 @@
+// messages.proto
+syntax = "proto3";
+
+message Person {
+    string name = 1;
+    int32 id = 2;
+}
+
+message People {
+    repeated Person person = 1;
+}
